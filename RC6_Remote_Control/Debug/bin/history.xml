@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=RC6_Remote_Control.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\RC6_Remote_Control -TC:\CooCox\CoIDE\configuration\ProgramData\RC6_Remote_Control/link.ld -g">
+      <target file="RC6_Remote_Control.elf" lastModified="169f9de6e6b">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="169f9de61d6"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="169f9de6253"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="169f9de62a1"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="169f9de638b"/>
+         <source file="..\obj\main.o" lastModified="169f9de64f6"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="169f9de65ef"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="169f9de66e9"/>
+         <source file="..\obj\syscalls.o" lastModified="169f9de6766"/>
+         <source file="..\obj\misc.o" lastModified="169f9de67d3"/>
+         <source file="..\obj\rc6.o" lastModified="169f9de685f"/>
+         <source file="..\obj\ssd1306.o" lastModified="169f9de6b3d"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="169f9de6c29"/>
+      </target>
+   </processor>
+</history>
