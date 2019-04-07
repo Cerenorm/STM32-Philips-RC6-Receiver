@@ -1,2 +1,6 @@
-Bu program CoIDE 1.7.8 ortamında stm32f103 mikrodenetleyici ile rc6 tipi uzaktan kumanda sinyalini almak için yazılmıştır. Donanım olrak IR alıcı, stm32f103 geliştime kartı ve 128x64 oled ekran kullanılmıştır. Programın çalışması HP rc6 kumanda ile test edilmiştir. Program Philips rc6 protokplünü de destekler. Program içinde yapılacak küçük değişikliklerle farklı mikrodenetleyicilerde çalışabilir. Bunun için rc6.h ve rc6.c dosyalarını projenize dahil etmeniz gerekiyor. Daha sonra rc6.c dosyasından giriş portu ve kesme fonksiyonunu kullandığınız mikrodenetleyiciye uygun olarak değiştirin. 
-Sonuçları görüntülemek için kullanılan ssd1306 oled ekran sürücüsü hazır kullanılmıştır yalnızca 16x16 font eklenmiştir.
+Bu program CoIDE 1.7.8 ortamÄ±nda stm32f103 mikrodenetleyici ile rc6 tipi uzaktan kumanda sinyalini almak iÃ§in yazÄ±lmÄ±ÅŸtÄ±r. 
+DonanÄ±m olrak IR alÄ±cÄ±, stm32f103 geliÅŸtime kartÄ± ve 128x64 oled ekran kullanÄ±lmÄ±ÅŸtÄ±r. ProgramÄ±n Ã§alÄ±ÅŸmasÄ± HP rc6 kumanda 
+ile test edilmiÅŸtir. Program Philips rc6 protokolÃ¼nÃ¼ de destekler. Program iÃ§inde yapÄ±lacak kÃ¼Ã§Ã¼k deÄŸiÅŸikliklerle farklÄ±
+mikrodenetleyicilerde Ã§alÄ±ÅŸabilir. Bunun iÃ§in rc6.h ve rc6.c dosyalarÄ±nÄ± projenize dahil etmeniz gerekiyor. Daha sonra rc6.c
+dosyasÄ±ndan giriÅŸ portu ve kesme fonksiyonunu kullandÄ±ÄŸÄ±nÄ±z mikrodenetleyiciye uygun olarak deÄŸiÅŸtirin. 
+SonuÃ§larÄ± gÃ¶rÃ¼ntÃ¼lemek iÃ§in kullanÄ±lan ssd1306 oled ekran sÃ¼rÃ¼cÃ¼sÃ¼ hazÄ±r kullanÄ±lmÄ±ÅŸtÄ±r yalnÄ±zca 16x16 font eklenmiÅŸtir.
